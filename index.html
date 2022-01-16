@@ -1,0 +1,123 @@
+<html>
+
+<head>
+  <title>Mobilenet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+    <h3 class="btn btn-primary heading">case study between google lens and mobilenet
+      <hr>
+      <center>
+        <h1>Google Lens <img src="lens.jpeg" alt=""></h1>
+        <br>
+        vs
+        <br>
+        <h1 class="btn btn-info">Mobilenet <img id="ph" src="photo.png" alt=""></h1>
+
+
+      </center>
+      <br>
+    </h3>
+    <br><br>
+
+    <ol style="padding:0px;">
+      <div class="bob col-xs-12">
+        <li class="col-sm-4 col-xs-12"> <b style="color: white;">Test Image - </b><img src="candles.jpg"
+            class="img-responsive"> </li>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> - <span>plate</span> </h5>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> - <span>plate</span> </h5>
+        <div class="bob3" class="col-xs-12">
+          <h4>Result - no accurate result </h4>
+          <hr>
+          <h4>Draw</h4>
+        </div>
+      </div>
+      <br>
+
+      <div class="bob col-xs-12">
+        <li class="col-sm-4 col-xs-12"> <b style="color: white;">Test Image - </b><img src="cones.jpg"
+            class="img-responsive"> </li>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> - <span>wheel</span> </h5>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> - <span>wheel</span> </h5>
+        <div class="bob3" class="col-xs-12">
+          <h4>Result - no accurate result</h4>
+          <hr>
+          <h4>Draw</h4>
+        </div>
+      </div>
+      <div class="bob col-xs-12">
+        <li class="col-sm-4 col-xs-12"> <b style="color: white;">Test Image - </b><img src="lemon.jpg"
+            class="img-responsive"> </li>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> - <span>lemon</span> </h5>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> - <span>lemon</span> </h5>
+        <div class="bob3" class="col-xs-12">
+          <h4>Result - accurate result </h4>
+          <hr>
+          <h4>Draw</h4>
+        </div>
+      </div>
+      <div class="bob col-xs-12">
+        <li class="col-sm-4 col-xs-12"> <b style="color: white;">Test Image - </b><img src="monopoly.jpg"
+            class="img-responsive"> </li>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> - <span>monopoly</span> </h5>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> - <span>monopoly</span> </h5>
+        <div class="bob3" class="col-xs-12">
+          <h4>Result - accurate result</h4>
+          <hr>
+          <h4>Draw</h4>
+        </div>
+      </div>
+      <div class="bob col-xs-12">
+        <li class="col-sm-4 col-xs-12"> <b style="color: white;">Test Image - </b><img src="mouse.jpg"
+            class="img-responsive"> </li>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> - <span>mouse</span> </h5>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> - <span>mouse</span> </h5>
+        <div class="bob3" class="col-xs-12">
+          <h4>Result - accurate result</h4>
+          <hr>
+          <h4>Draw</h4>
+        </div>
+      </div>
+      <div class="bob col-xs-12">
+        <li class="col-sm-4 col-xs-12"> <b style="color: white;">Test Image - </b><img src="pencil.jpg"
+            class="img-responsive"> </li>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> - <span>pencil</span> </h5>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> - <span>pencil</span> </h5>
+        <div class="bob3" class="col-xs-12">
+          <h4>Result - accurate result</h4>
+          <hr>
+          <h4>Draw</h4>
+        </div>
+      </div>
+      <div class="bob col-xs-12">
+        <li class="col-sm-4 col-xs-12"> <b style="color: white;">Test Image - </b><img src="pop.jpg"
+            class="img-responsive"> </li>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> - <span>popit</span> </h5>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> - <span>popit</span> </h5>
+        <div class="bob3" class="col-xs-12">
+          <h4>Result - accurate result </h4>
+          <hr>
+          <h4>Draw</h4>
+        </div>
+      </div>
+      </ol>
+</center>
+
+  <div class="copy_right_footer">
+    Developed by - Pranav P.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
